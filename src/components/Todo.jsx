@@ -32,7 +32,7 @@ function Todo() {
 
     if (input === '') {
       e.preventDefault();
-      console.log('Type Something ');
+      alert('Type Something ');
     } else {
       //insert into firebase
       e.preventDefault();
